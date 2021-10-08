@@ -27,3 +27,8 @@ img {
 p {
     text-align: center;
 }
+
+.inputname {
+    display: flex;
+    justify-content: center;
+}
