@@ -5,7 +5,7 @@ const dogNam = document.getElementById('dogName');
 const catNam = document.getElementById('catName');
 const dogBtn = document.getElementById('generate');
 const catBtn = document.getElementById('catSubmit');
-const dogNap = document.getElementById('dogNaps');
+const dogNap = document.getElementById('random-num');
 const catNap = document.getElementById('catNaps');
 
 // initialize global state
