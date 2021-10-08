@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,7 +19,7 @@
     <main>
         <section id="dogNaming">
             <input type="text" id="dogInput" placeholder="Dog's Name">
-            <button id="dogSubmit" >Name the Dog!</button>
+            <button id="generate" >Name the Dog!</button>
         </section>
         <section id="catNaming">
              <input type="text" id="catInput" placeholder="Cat's Name">
@@ -29,11 +29,15 @@
     <div id="pictures">
         <section id="dogInfo">
             <img src="./assets/puppy.jpg" alt="Puppy">
-            <span id="dogName"></span>
+            <span id="dogName">dog name</span>
+            <p>Naps per day:</p>
+            <p id = "random-num"></p>
+            
         </section>
         <section id="catInfo">
             <img src="./assets/cat.webp" alt="Kitten">
-            <span id="catName"></span>
+            <span id="catName">cat name</span>
+            <p>Naps per day:<span id="catNaps"></span></p>
         </section>
     </div>
     <script type="module" src="./app.js"></script>
