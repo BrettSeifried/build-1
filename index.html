@@ -14,19 +14,28 @@
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
+        <h1>Name your Pet!</h1>
     </header>
     <main>
-        <section class="main-section">
-            
+        <section id="dogNaming">
+            <input type="text" id="dogInput" placeholder="Dog's Name">
+            <button id="dogSubmit" >Name the Dog!</button>
         </section>
+        <section id="catNaming">
+             <input type="text" id="catInput" placeholder="Cat's Name">
+             <button id="catSubmit" >Name the Cat!</button>
+         </section>
     </main>
-    <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
-    </footer>
-
+    <div id="pictures">
+        <section id="dogInfo">
+            <img src="./assets/puppy.jpg" alt="Puppy">
+            <span id="dogName"></span>
+        </section>
+        <section id="catInfo">
+            <img src="./assets/cat.webp" alt="Kitten">
+            <span id="catName"></span>
+        </section>
+    </div>
     <script type="module" src="./app.js"></script>
 </body>
 
